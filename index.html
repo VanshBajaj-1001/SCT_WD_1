@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreWorld Travels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h2 class="logo">ExploreWorld</h2>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#contact">Booking</a></li>
+        </ul>
+
+        <!-- Mobile menu -->
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Book flights, tours, and holiday packages at the best prices.</p>
+            <button class="cta-btn">Plan Your Trip</button>
+        </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section id="packages" class="packages">
+        <h2>Popular Packages</h2>
+
+        <div class="package-list">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="">
+                <h3>Maldives Getaway</h3>
+                <p>₹55,000 / person</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e" alt="">
+                <h3>Paris Holiday</h3>
+                <p>₹72,000 / person</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad" alt="">
+                <h3>Dubai Tour</h3>
+                <p>₹40,000 / person</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1" alt="">
+                <h3>Singapore Trip</h3>
+                <p>₹38,000 / person</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1505764706515-aa95265c5abc" alt="">
+                <h3>Bali Vacation</h3>
+                <p>₹48,000 / person</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d" alt="">
+                <h3>London Experience</h3>
+                <p>₹85,000 / person</p>
+                <button class="book-btn">Book Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- BOOKING FORM -->
+    <section id="contact" class="contact">
+        <h2>Book Your Trip</h2>
+
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Phone Number" required>
+
+            <select required>
+                <option value="">Select Destination</option>
+                <option>Maldives</option>
+                <option>Paris</option>
+                <option>Dubai</option>
+                <option>Singapore</option>
+                <option>Bali</option>
+                <option>London</option>
+            </select>
+
+            <label>Travel Date:</label>
+            <input type="date" required>
+
+            <label>Number of Travelers:</label>
+            <input type="number" min="1" placeholder="e.g., 2" required>
+
+            <textarea placeholder="Any special request?" rows="4"></textarea>
+
+            <button type="submit" class="submit-btn">Submit Booking</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 ExploreWorld Travels. All Rights Reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
